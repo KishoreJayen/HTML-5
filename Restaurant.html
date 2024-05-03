@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Table</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 25px;
+        }
+
+        body{
+            background: rgb(63,94,251);
+            background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+        }
+        .opacity{
+            width: 340px;
+            background-color: black;
+        }
+        .opacity > img{
+            height: 500px;
+           
+            opacity: 0.5;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="opacity">
+    <img src="../Design/portfolio/KrishPiccop.jpg" alt="krish">
+</div>
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Students</th>
+                    <th>Teachers</th>
+                    <th>Ranks</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ravi</td>
+                    <td>Malar Teacher</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Arjun</td>
+                    <td>Mahes Sir</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Hari</td>
+                    <td>Guna Sir</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Raja</td>
+                    <td>Ravathi Teacher</td>
+                    <td>4</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
